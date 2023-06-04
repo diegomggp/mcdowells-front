@@ -1,0 +1,115 @@
+@media (min-width:800px) and (max-width:1700px) {
+    .container_navBar {
+        background-color: #74AF00;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container_navBar_text {
+        display: flex;
+        padding-top: 2.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .image_logo_nav {
+        position: absolute;
+        margin-top: 2rem;
+    }
+
+    .image_nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container_empty {
+        height: 9vh;
+    }
+
+    .text_top {
+        display: flex;
+        background-color: #74AF00;
+        padding-bottom: 1rem;
+        justify-content: center;
+    }
+}
+
+@media (max-width:800px) {
+    .container_navBar {
+        background-color: #74AF00;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container_navBar_text {
+        display: flex;
+        padding-top: 2.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .image_logo_nav {
+        position: absolute;
+        margin-top: 2rem;
+    }
+
+    .image_nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container_empty {
+        height: 9vh;
+    }
+
+    .text_top {
+        display: flex;
+        background-color: #74AF00;
+        padding-bottom: 1rem;
+        justify-content: center;
+    }
+}
+
+@media (max-width:400px) {
+
+    .container_navBar {
+        background-color: #74AF00;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container_navBar_text {
+        display: flex;
+        padding-top: 2.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .image_logo_nav {
+        position: absolute;
+        margin-top: 3.1rem;
+        width: 35%;
+    }
+
+    .image_nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container_empty {
+        height: 9vh;
+    }
+
+    .text_top {
+        display: flex;
+        background-color: #74AF00;
+        padding-bottom: 1rem;
+        justify-content: center;
+    }
+}

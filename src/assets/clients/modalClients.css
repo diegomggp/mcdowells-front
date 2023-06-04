@@ -1,0 +1,604 @@
+@media (min-width:800px) and (max-width:1700px) {
+
+    .asideContainer {
+        width: 25%;
+    }
+
+    .image_nav_modal {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image_logo_modal {
+        position: absolute;
+        margin-top: 2rem;
+        width: 35%;
+    }
+
+    .containerModal_clients {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgb(0 0 0 / 41%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerModal_1_clients {
+        margin-top: 5rem;
+        display: flex;
+        width: 30%;
+        min-height: 100px;
+        background: #fff;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btnModal {
+        margin: 20px 0;
+        padding: 13px 13px;
+        font-family: 'Century Gothic';
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #FBC9FF;
+        border: 2px solid #000000;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    .btnModalEmployees {
+        margin: 20px 0;
+        padding: 13px 13px;
+        font-family: 'Century Gothic';
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #125C98;
+        border: 2px solid #000000;
+        cursor: pointer;
+        border-radius: 20px;
+        color: white;
+    }
+
+    button:hover {
+        background: #f2f2f2;
+    }
+
+    .btnModalEmployees:hover {
+        color: #000000;
+    }
+
+    .containerModal_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(3, 3, 113);
+        background-color: azure;
+    }
+
+    .containerModal_text_Red {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(188, 26, 26);
+        background-color: azure;
+    }
+
+
+    .textModal {
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .textModal_P {
+        font-size: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .modal_cont_1 {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .modal_cont_2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn_modal_f {
+        display: flex;
+        background-color: #74AF00;
+        border-radius: 100px;
+        padding: 0.5rem;
+        width: 7vw;
+        justify-content: center;
+    }
+
+    .containerModal_final {
+
+        display: flex;
+        width: 30%;
+        min-height: 100px;
+        background: #fff;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .modal_final_1 {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .box_final_1 {
+        flex-direction: column;
+        width: 90%;
+        display: flex;
+        border: 2px solid #74AF00;
+        border-radius: 8px;
+        padding: 0.5rem;
+        box-sizing: border-box;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        gap: 3rem;
+    }
+
+    .texto_top_final {
+        margin-top: 2rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+
+    .btn_mod_bottom {
+        display: flex;
+        background-color: #74AF00;
+        border-radius: 100px;
+        padding: 0.5rem;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width:800px) {
+
+    .asideContainer {
+        width: 25%;
+    }
+
+    .image_nav_modal {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image_logo_modal {
+        position: absolute;
+        margin-top: 2rem;
+        width: 35%;
+    }
+
+    .containerModal_clients {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgb(0 0 0 / 41%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerModal_1_clients {
+        margin-top: 5rem;
+        display: flex;
+        width: 100%;
+        min-height: 100px;
+        background: #fff;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btnModal {
+        margin: 20px 0;
+        padding: 13px 13px;
+        font-family: 'Century Gothic';
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #FBC9FF;
+        border: 2px solid #000000;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    .btnModalEmployees {
+        margin: 20px 0;
+        padding: 13px 13px;
+        font-family: 'Century Gothic';
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #125C98;
+        border: 2px solid #000000;
+        cursor: pointer;
+        border-radius: 20px;
+        color: white;
+    }
+
+    button:hover {
+        background: #f2f2f2;
+    }
+
+    .btnModalEmployees:hover {
+        color: #000000;
+    }
+
+    .containerModal_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(3, 3, 113);
+        background-color: azure;
+    }
+
+    .containerModal_text_Red {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(188, 26, 26);
+        background-color: azure;
+    }
+
+
+    .textModal {
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .textModal_P {
+        font-size: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .modal_cont_1 {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .modal_cont_2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn_modal_f {
+        display: flex;
+        background-color: #74AF00;
+        border-radius: 100px;
+        padding: 0.5rem;
+        width: 20vw;
+        justify-content: center;
+    }
+
+    .containerModal_final {
+
+        display: flex;
+        width: 100%;
+        min-height: 100px;
+        background: #fff;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .modal_final_1 {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .box_final_1 {
+        flex-direction: column;
+        width: 90%;
+        display: flex;
+        border: 2px solid #74AF00;
+        border-radius: 8px;
+        padding: 0.5rem;
+        box-sizing: border-box;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        gap: 3rem;
+    }
+
+    .texto_top_final {
+        margin-top: 2rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+
+    .btn_mod_bottom {
+        display: flex;
+        background-color: #74AF00;
+        border-radius: 100px;
+        padding: 0.5rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:400px) {
+
+    .asideContainer {
+        width: 25%;
+    }
+
+    .image_nav_modal {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image_logo_modal {
+        position: absolute;
+        margin-top: 2rem;
+        width: 35%;
+    }
+
+    .containerModal_clients {
+      
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgb(0 0 0 / 41%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerModal_1_clients {
+        margin-top: 5rem;
+        display: flex;
+        width: 80%;
+        min-height: 100px;
+        background: #fff;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        align-items: center;
+        justify-content: center;
+        transition: transform 2s;
+        transform: translateY(-10%);
+    }
+
+    .modal-close {
+       transform: translateY(200%);
+    }
+
+
+
+    .btnModal {
+        margin: 20px 0;
+        padding: 13px 13px;
+        font-family: 'Century Gothic';
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #FBC9FF;
+        border: 2px solid #000000;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    .btnModalEmployees {
+        margin: 20px 0;
+        padding: 13px 13px;
+        font-family: 'Century Gothic';
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #125C98;
+        border: 2px solid #000000;
+        cursor: pointer;
+        border-radius: 20px;
+        color: white;
+    }
+
+    button:hover {
+        background: #f2f2f2;
+    }
+
+    .btnModalEmployees:hover {
+        color: #000000;
+    }
+
+    .containerModal_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(3, 3, 113);
+        background-color: azure;
+    }
+
+    .containerModal_text_Red {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(188, 26, 26);
+        background-color: azure;
+    }
+
+
+    .textModal {
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .textModal_P {
+        font-size: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .modal_cont_1 {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .modal_cont_2 {
+        display: flex;
+        flex-direction: column;
+        width: 32%;
+    }
+
+    .btn_modal_f {
+        display: flex;
+        background-color: #74AF00;
+        border-radius: 100px;
+        padding: 0.5rem;
+        width: 18vw;
+        justify-content: center;
+        font-size: 13px;
+    }
+
+    .containerModal_final {
+
+        display: flex;
+        width: 80%;
+        min-height: 100px;
+        background: #fff;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        align-items: center;
+        justify-content: center;
+        transition: transform 2s;
+        transform: translateY(-5%);
+    }
+
+    .modal_final_1 {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .box_final_1 {
+        flex-direction: column;
+        width: 90%;
+        display: flex;
+        border: 2px solid #74AF00;
+        border-radius: 8px;
+        padding: 0.5rem;
+        box-sizing: border-box;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        gap: 3rem;
+    }
+
+    .texto_top_final {
+        margin-top: 2rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+
+    .btn_mod_bottom {
+        display: flex;
+        background-color: #74AF00;
+        border-radius: 100px;
+        padding: 0.5rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .text_politics{
+        display: flex;
+        text-align: center justify;
+        padding: 1rem;
+    }
+    
+    .container_politics{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgb(0 0 0 / 0%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container_mod_politics{
+        margin-top: 5rem;
+        display: flex;
+        min-height: 100px;
+        background: #fff;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: rgb(100 100 111) 0px -9px 29px 0px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        align-items: center;
+        justify-content: center;
+        transition: transform 2s;
+        transform: translateY(108%);
+    }
+    
+    .buttons_politics{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    
+    .btn_mod_politics{
+        display: flex;
+        background-color: #74AF00;
+        border-radius: 100px;
+        padding: 0.5rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+        font-size: 16px;
+        width: 7rem;
+    }
+
+    
+}
+

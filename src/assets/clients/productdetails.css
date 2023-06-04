@@ -1,0 +1,298 @@
+@media  (min-width:800px) and (max-width:1700px) {
+
+    .containter_single_1 {
+        background-color: #74AF00;
+        height: 32vh;
+    }
+
+    .container_single_2 {
+        background-color: white;
+    }
+
+    .logo_single {
+        width: 100%;
+        height: 15vh;
+    }
+
+    .container_logo_single {
+        display: flex;
+    }
+
+
+    .containter_custom_menu {
+        display: flex;
+        padding: 4rem 1.3rem;
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containter_custom_menu_1 {
+        display: flex;
+        padding: 2em 1.3rem;
+        gap: 1rem;
+        flex-direction: column;
+        height: 19rem;
+        overflow-y: scroll;
+        align-items: center;
+    }
+
+    .text_custom_menu {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #74AF00;
+        border-radius: 8px;
+        padding: 0.5rem;
+        box-sizing: border-box;
+        width: 50%;
+    }
+
+    .containter_custom_text {
+        display: flex;
+        padding: 0.5rem 1.3rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 20rem;
+    }
+
+
+    .btn_single {
+        display: flex;
+        background-color: #74AF00;
+        border-radius: 100px;
+        padding: 0.5rem;
+        width: 7vw;
+        justify-content: center;
+    }
+
+    .container_ingredients {
+        display: flex;
+        border: 2px solid #74AF00;
+        border-radius: 8px;
+        padding: 0.5rem;
+        box-sizing: border-box;
+        width: 50%;
+    }
+
+    .ingredients_options {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        justify-content: space-between;
+    }
+
+    .btn_ingredients {
+        display: flex;
+        border: none;
+        background-color: white;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+        background-color: transparent !important;
+    }
+
+    .total_ingredients_options {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 7rem;
+    }
+}
+
+@media (max-width:800px) {
+
+    .containter_single_1 {
+        background-color: #74AF00;
+        height: 32vh;
+    }
+
+    .container_single_2 {
+        background-color: white;
+    }
+
+    .logo_single {
+        width: 100%;
+    }
+
+    .container_logo_single {
+        display: flex;
+    }
+
+
+    .containter_custom_menu {
+        display: flex;
+        padding: 2em 1.3rem;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .containter_custom_menu_1 {
+        display: flex;
+        padding: 2em 1.3rem;
+        gap: 1rem;
+        flex-direction: column;
+        height: 19rem;
+        overflow-y: scroll;
+    }
+
+    .text_custom_menu {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #74AF00;
+        border-radius: 8px;
+        padding: 0.5rem;
+        box-sizing: border-box;
+    }
+
+    .containter_custom_text {
+        display: flex;
+        padding: 0.5rem 1.3rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .btn_single {
+        display: flex;
+        background-color: #74AF00;
+        border-radius: 100px;
+        padding: 0.5rem;
+        width: 20vw;
+        justify-content: center;
+    }
+
+    .container_ingredients {
+        display: flex;
+        border: 2px solid #74AF00;
+        border-radius: 8px;
+        padding: 0.5rem;
+        box-sizing: border-box;
+    }
+
+    .ingredients_options {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        justify-content: space-between;
+    }
+
+    .btn_ingredients {
+        display: flex;
+        border: none;
+        background-color: white;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+        background-color: transparent !important;
+    }
+
+    .total_ingredients_options {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 7rem;
+    }
+}
+
+@media (max-width:400px) {
+
+    .containter_single_1 {
+        background-color: #74AF00;
+        height: 32vh;
+    }
+
+    .container_single_2 {
+        background-color: white;
+    }
+
+    .logo_single {
+        width: 100%;
+    }
+
+    .container_logo_single {
+        display: flex;
+    }
+
+
+    .containter_custom_menu {
+        display: flex;
+        padding: 2em 1.3rem;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .containter_custom_menu_1 {
+        display: flex;
+        padding: 2em 1.3rem;
+        gap: 1rem;
+        flex-direction: column;
+        height: 19rem;
+        overflow-y: scroll;
+    }
+
+    .text_custom_menu {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #74AF00;
+        border-radius: 8px;
+        padding: 0.5rem;
+        box-sizing: border-box;
+    }
+
+    .containter_custom_text {
+        display: flex;
+        padding: 0.5rem 1.3rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .btn_single {
+        display: flex;
+        background-color: #74AF00;
+        border-radius: 100px;
+        padding: 0.5rem;
+        width: 20vw;
+        justify-content: center;
+    }
+
+    .container_ingredients {
+        display: flex;
+        border: 2px solid #74AF00;
+        border-radius: 8px;
+        padding: 0.5rem;
+        box-sizing: border-box;
+    }
+
+    .ingredients_options {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        justify-content: space-between;
+    }
+
+    .btn_ingredients {
+        display: flex;
+        border: none;
+        background-color: white;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+        background-color: transparent !important;
+    }
+
+    .total_ingredients_options {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 7rem;
+    }
+
+}

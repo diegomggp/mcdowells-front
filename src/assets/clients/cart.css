@@ -1,0 +1,200 @@
+@media (min-width:800px) and (max-width:1700px) {
+    .container_cart {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .containert_ticket {
+        flex-direction: column;
+        width: 50%;
+        display: flex;
+        border: 2px solid #74AF00;
+        border-radius: 8px;
+        padding: 0.5rem;
+        box-sizing: border-box;
+    }
+    
+    .container_title_ticket {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .containter_text_ticket{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .text_ticket {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .text_ticket_title{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+    
+    .btn_cart {
+        display: flex;
+        background-color: #74AF00;
+        border-radius: 100px;
+        padding: 0.5rem;
+        width: 34vw;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container_btn_cart{
+        display: flex;
+        width: 50%;
+        gap: 1rem;
+        justify-content: center;
+    }
+    
+    hr{
+        height: 10px;
+    }
+}
+
+@media  (max-width:800px) {
+    .container_cart {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .containert_ticket {
+        flex-direction: column;
+        width: 90%;
+        display: flex;
+        border: 2px solid #74AF00;
+        border-radius: 8px;
+        padding: 0.5rem;
+        box-sizing: border-box;
+    }
+    
+    .container_title_ticket {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .containter_text_ticket{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .text_ticket {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text_ticket_title{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .text_ticket_title{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+    
+    
+    .btn_cart {
+        display: flex;
+        background-color: #74AF00;
+        border-radius: 100px;
+        padding: 0.5rem;
+        width: 34vw;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container_btn_cart{
+        display: flex;
+        width: 90%;
+        gap: 1rem;
+        justify-content: center;
+    }
+    
+    hr{
+        height: 10px;
+    }
+}
+
+@media  (max-width:400px) {
+
+    .container_cart {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .container_final_msg {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 15rem;
+    }
+    
+    .containert_ticket {
+        flex-direction: column;
+        width: 90%;
+        display: flex;
+        border: 2px solid #74AF00;
+        border-radius: 8px;
+        padding: 0.5rem;
+        box-sizing: border-box;
+    }
+    
+    .container_title_ticket {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .containter_text_ticket{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .text_ticket {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .btn_cart {
+        display: flex;
+        background-color: #74AF00;
+        border-radius: 100px;
+        padding: 0.5rem;
+        width: 34vw;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container_btn_cart{
+        display: flex;
+        width: 90%;
+        gap: 1rem;
+        justify-content: center;
+    }
+    
+    hr{
+        height: 10px;
+    }
+}
