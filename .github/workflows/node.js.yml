@@ -60,7 +60,10 @@ jobs:
           path: zipdescargado
           
       - name: Unzip application files
-        run: unzip zipdescargado/node-app.zip -d zipdescargado
+        run: unzip zipdescargado/node-app.zip 
+        
+      - name: delete zip residual
+        run: rm zipdescargado/node-app.zip 
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
